@@ -1,0 +1,32 @@
+.hero{
+    min-height: 100vh;
+    background-image: url(images/gym.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    display: flex;
+    margin-top: 10rem;
+}
+
+.hero .content{
+    font-size: 1.4rem 5%; 
+    max-width: 70%;
+}
+
+.hero .content h1{
+        font-size: 1.4rem 5%;
+         color: yellow 80%;
+         text-shadow: 1px 1px 8px, rgba(106, 106, 189, 0.678);
+}
+
+.hero .content.p{
+    font-size: 1.1rem 2%;
+    color:bisque;
+}
+
+.hero .content .btn{
+    background-color:rgb(24, 102, 170);
+    font-size: 1.5rem;
+
+}
